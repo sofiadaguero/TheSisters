@@ -1,0 +1,940 @@
+
+body{
+    margin: 0;
+    background-image: url(fondo.jpg);
+    font-family: 'Raleway', sans-serif;
+}
+
+/*HEADER*/
+header{
+
+    width: 100%;
+    height: 25%;
+    
+    padding-top: 3px;
+    
+}
+
+h1{
+   
+    align-items: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 350%;
+    
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px rgb(139, 133, 136);
+   
+    padding: 5px;
+     
+    border-width: auto;
+    border-bottom: 2px solid rgb(214, 200, 200);
+
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    
+    box-shadow: -1px -47px 109px 3px rgba(38,24,24,0.41);
+-webkit-box-shadow: -1px -47px 109px 3px rgba(38,24,24,0.41);
+-moz-box-shadow: -1px -47px 109px 3px rgba(38,24,24,0.41);
+
+}
+
+h1:hover{
+    text-shadow: 2.5px 1px 1px rgb(139, 133, 136);
+    transition: .1s ease;
+}
+
+
+
+/*Botón menú hamburguesa*/
+#btn-menu{
+   display: none;
+}
+
+.icono-menu{
+   display: none;
+   width: 40px;
+   height: 40px;
+   padding: 10px;
+}
+
+.icono-menu:hover{
+    color: rgb(187, 77, 77);
+    cursor: pointer;
+}
+/**/
+
+.menu{
+    width: 90%;
+    height: 90%;
+    padding: 0px;
+    margin:0px auto;
+    margin-top: 10px;
+}
+
+
+.menu ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+           
+}
+
+.menu li{
+    flex-grow: 1;
+    text-align: center;
+}
+.menu li a{
+    display: block;
+    list-style: none;
+    text-decoration: none;
+
+    padding: 2.5px;
+
+    color: black;
+   
+    
+    font-size: 130%;
+    border-bottom: 1px solid white;
+    border-radius: 120px;
+    transition: .4s ease;
+}
+
+.menu a:hover{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(206, 148, 148);
+    background-color: rgb(250, 232, 241);
+}
+
+
+/*PORTADA*/
+
+.portada{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+
+    text-align: center;
+    
+    width:100% ;
+    height: 100vh;
+
+    background-image: url(bañera.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size:cover;
+    
+    border-radius: 100px;
+    box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+-webkit-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+-moz-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+    
+    color: black;
+}
+
+.portada h2{
+    font-size: 210%;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+
+    text-shadow: 2px 2px 1px rgb(139, 133, 136);
+}
+
+
+.portada p{
+    font-size: 130%;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+/*SERVICIOS*/
+
+/*SERVICIOS CELULAR*/
+.servicios-celu{
+    display: none;
+}
+
+.secciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 90vw  ;
+    height:70vh;
+    border:0.8px solid rgb(138, 130, 130);
+    box-shadow: -3px 2px 30px rgb(75, 72, 72);
+    border-radius: 550px;
+   
+    margin: 5px;
+    
+}
+.img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.serv1{
+    background-image: url(peluqueria.jpeg);
+}
+.serv2{
+    background-image: url(estetica.jpeg);
+}
+.serv3{
+    background-image: url(gimnasia.jpeg);
+}
+.secciones h5{
+    
+    font-size: 160%;
+    font-weight: 700;
+
+    color:aliceblue;
+    text-shadow: 2px 2px 1px rgb(10, 10, 10);
+
+}
+
+.secciones p{
+    display: none;
+    color: whitesmoke;
+    text-shadow: 0px 2px 5px rgb(10, 10, 10);
+    font-size: 120%;
+    font-weight: 500;
+        
+}
+
+
+/**/
+
+.servicios{
+     width: 100%;
+     height: 100vh;
+
+     display: flex;
+     align-items:center;
+     justify-content:center;
+     flex-direction: column;
+ 
+     text-align: center;
+
+     margin-top: 10px;
+     padding: 5px;
+     
+     border-radius: 80px;
+     box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+     -webkit-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+     -moz-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+  
+}
+
+.servicios h2{
+    font-size: 210%;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: black;
+
+    font-weight: 700;
+    text-shadow: 2px 2px 1px rgb(196, 133, 165);
+    margin-bottom: 15px;
+}
+
+
+
+.carrusel{
+    width: 60%;
+    height: 80vh;
+}
+
+.carruselImagenes{
+    width: 90%;
+    height: 80vh;
+
+    border-radius: 450px;
+         
+}
+
+.carrusel h5{
+    display: inline-block;
+    width: 50%;
+
+    text-shadow: 2px 2px 1px rgb(10, 10, 10);
+    font-size: 180%;
+    font-weight: 700;
+ 
+    border-radius: 10px;
+}
+
+.carrusel p{
+    text-shadow: 0px 2px 5px rgb(10, 10, 10);
+    font-size: 130%;
+    font-weight: 500;
+    
+}
+
+
+.flechas{
+    filter: invert(50%);
+}
+
+/*CONTACTO*/
+
+.grid {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    
+    grid-template-columns: 40% 60%;
+    text-align: center;
+
+    border-radius: 100px;
+    box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+    -webkit-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+    -moz-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+}
+
+.datosContacto{
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    background-color:rgb(221, 176, 176);
+    border-radius: 80px;
+    box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+     -webkit-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+     -moz-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+
+    overflow: auto;
+}
+.datosContacto hr{
+    width: 80%;
+    
+    border-bottom:1px solid rgb(187, 102, 102);
+}
+.datosContacto h2{
+    font-size: 210%;
+    
+    letter-spacing: 2px;
+    color: black;
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(88, 86, 86);
+    border-radius: 30px;
+    
+
+    font-weight: 700;
+    text-shadow: 2px 2px 1px rgb(196, 133, 165);
+    letter-spacing: 2px;
+}
+
+.iconos{
+    height: 20% ;
+    color: rgb(10, 6, 6);
+    font-size: 200%;
+    margin: 0px ;
+    
+    padding: 5px;
+    margin-top: 10px;
+
+    cursor: pointer;
+    
+}
+
+.iconos h5{
+    margin-top: 10px;
+    font-size:70%;
+    font-weight: 300;
+    color: black;
+    
+    margin-bottom: 0px;
+}
+
+
+.formularioContacto{
+    display: grid;
+
+    margin: 5px;
+    margin-top: 0px;
+    margin-left: 100px;
+    padding: 5px;
+
+    display: grid;
+    text-align: start;
+    
+    overflow: auto;
+   
+}
+
+.formularioContacto h3{
+
+    font-size: 210%;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: black;
+    
+    text-align: start;
+
+    font-weight: 700;
+    text-shadow: 2px 2px 1px rgb(196, 133, 165);
+    margin-top: 50px;
+   
+    margin-bottom: 5px;
+
+}
+
+.formularioContacto label{
+    
+    text-align: start;
+
+    margin-top: 20px;
+    margin-left: 5px;
+
+    font-weight: 500;
+    font-size: 110%;
+
+}
+
+.formProlijo{
+    width: 300px;
+    margin:0 auto;
+    margin-left: -0.10%;
+
+    font-weight: 500;
+    font-size: 90%;
+    
+    border-radius: 5px;
+    border: 2px solid  rgb(207, 138, 138);;
+    padding: 0px;
+
+}
+
+.opciones{
+    width:150px ;
+}
+
+textarea{
+    width: 68% !important;
+    margin-left: 5px !important;
+    margin-bottom: 10px !important;
+    margin-top: 20px !important;
+}
+
+
+.formProlijo:focus{
+    background-color: rgb(245, 243, 244);
+    
+    outline: none !important;
+
+    border: 2px solid  rgb(218, 89, 89);
+}
+
+
+
+.botonEnviar{
+    
+    width: 25%;
+    height: 10%;
+    margin-left: 20%;
+    margin-top: 20px;
+
+    border-radius: 10px;
+
+    color: rgb(49, 15, 49);
+    background-color: white;
+    border: 3px solid  rgb(218, 135, 135);
+}
+
+.botonEnviar:hover{
+    border: 3px solid white;
+    background-color:  rgb(218, 89, 89);
+    transition: .5s ease;
+    color: white;
+}
+
+/*FOOTER*/
+
+.redes{
+   width: 100%;
+   height: 25%; 
+
+   padding: 10px;
+
+    border-top: 2px solid rgb(214, 200, 200);
+
+     border-bottom: none;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+
+
+    border-radius: 80px;
+    box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+     -webkit-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+     -moz-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+    
+     display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+ 
+     text-align: center;
+
+     overflow: auto;
+
+
+}
+
+.iconosRedes{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+.iconosRedes h3{
+    margin: 0px 30px;
+    font-size: 210%;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: black;
+   
+    text-shadow: 2px 2px 1px rgb(196, 133, 165);
+}
+.redes hr{
+    width: 100%;
+    border-bottom: 0.1px solid rgb(196, 117, 117);
+}
+.final{
+    letter-spacing: 2px;
+    font-size: 120%;
+}
+
+/*INGRESAR  -  REGISTRARSE*/
+
+.container{
+    width: 75%;
+    height: 90vh;
+    padding: 0px;
+    margin-top: 2%;
+    
+    border-radius: 80px;
+   
+    background-color: rgb(230, 184, 191);
+    box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+     -webkit-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+     -moz-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+    
+     display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+ 
+}
+
+.container h2{
+
+    font-family: 'Great Vibes', cursive;
+    font-size: 310%;
+       
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    
+    margin-left: 15px;
+    border-bottom: 1px solid rgb(85, 79, 79);
+    border-radius: 5px;
+
+    font-weight: 700;
+    text-shadow: 2px 2px 1px rgb(168, 152, 131);
+    letter-spacing: 2px;
+}
+
+.container form{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+
+    width: 40%;
+    height: 50vh;
+
+}
+
+.container input{
+    border-radius: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid rgb(85, 79, 79);
+
+    padding: 5px;
+
+    width: 70%;
+}
+
+.formLogin:focus{
+    
+    outline: none !important;
+    background-color: rgb(245, 220, 239);
+    border: 2px solid rgb(241, 146, 146);
+
+}
+
+.botonLogin{
+    font-size: 120%;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px  rgb(88, 82, 82);
+    color:rgb(247, 232, 232);
+    background-color: rgb(218, 89, 89);
+    
+    border: none !important;
+}
+
+.botonLogin:hover{
+    font-size: 110%;
+    border: 1px solid rgb(182, 76, 76) !important;
+    background-color: rgb(180, 104, 104);
+    transition: .3s ease;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.linksLogin{
+    text-decoration: none !important;
+    color: rgb(119, 48, 48);
+    font-size: 90%;
+    margin-bottom:0px;
+
+}
+
+.linksLogin:hover{
+    color:rgb(138, 71, 121);
+     transition: .3s ease;
+}
+
+span{
+    color: black;
+}
+
+
+.imagenLogin{
+        width: 50%;
+        height: 90vh;
+        padding: 0px;
+    
+        background-image:url(perfil.jpg);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+    
+        border-radius: 80px;
+         box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+         -webkit-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+         -moz-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+        
+}
+
+.imagenRegistrarse{
+    width: 50%;
+    height: 90vh;
+    padding: 0px;
+
+    background-image:url(perfil2.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+
+    border-radius: 80px;
+     box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+     -webkit-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+     -moz-box-shadow: -1px 7px 52px 5px rgba(38,24,24,0.62);
+    
+}
+    
+/*MEDIAS QUERIES*/
+
+/*Celular*/
+@media (max-width: 425px){
+    
+      /*HEADER*/
+    h1{
+        font-size: 300%;
+    }
+    header label{
+        display: inline-block ;
+        align-items: flex-end;
+    }
+    
+    .icono-menu{
+        display: inline-block ;
+    }
+
+    .menu{
+        position: absolute ;
+        
+        width: 70vw;
+        height: 40%;
+
+        margin-left: -70%;
+        transition: all 0.5s;
+        
+        background-color: rgb(231, 198, 198);
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    .menu li{
+        border-top: 1px solid white;
+
+    }
+
+    #btn-menu:checked ~ .menu{
+        display: inline-block ;
+        margin: 0px;
+    }
+  
+    /*PORTADA*/
+
+    .portada h2{
+        font-size: 180%;
+    }
+
+    .portada p {
+        font-size: 110%;
+    }
+
+    /*SERVICIOS*/
+    .servicios{
+        width: auto;
+        height: auto;
+    }
+
+    .servicios-celu{
+        display: inline-block;
+    }
+
+     .servicios h2{
+        font-size: 180%;
+    }
+    
+    .carrusel{
+       display: none !important;
+    }
+
+    
+    .secciones h5:hover ~ .mostrarp{
+        display: inline-block;
+        transition: .5s;
+        transition-duration: 20s;
+        animation-duration: 20s;
+    }
+
+ /*CONTACTO*/
+    .grid{
+        width: auto;
+        height: auto;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .datosContacto h2{
+        font-size: 180%;
+    }
+    .iconos{
+        height: 15%;
+    }
+    .iconos h5{
+        font-size: 60%;
+    }
+    .datosContacto{
+        width: 90vw;
+        height: 80vh;
+        margin: 15px 0px  ;
+    }
+    
+    .formularioContacto{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        width: auto;
+        height: auto;
+        margin: 0px ;
+        padding: 15px;
+
+        overflow: none;
+    }
+    .formularioContacto h3{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 160%;
+    }
+    .formularioContacto label{
+        font-size: 100%;
+        align-items: center;
+    }
+
+    .botonEnviar{
+        align-items:center ;
+        margin: 0px;
+    }
+
+    /*FOOTER*/
+    .redes{
+        width: auto;
+        height: auto;
+    }
+    .iconosRedes h3{
+        font-size: 180%;
+        margin-top: 20px;
+    }
+
+    .final{
+        font-size: 100%;
+    }
+  
+
+    /*INGRESAR*/
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container h2{
+        font-size: 280%;
+        margin-bottom: 0px;
+    }
+
+    .container form{
+        padding: 0px !important;
+        margin-top: -100px;
+    }
+    
+    .container input{
+        width: auto;
+        margin-top: 20px;
+    }
+
+    .botonLogin{
+        margin-top: 10px;
+        font-size: 110%;
+    }
+    
+    .links{
+        
+       
+        width: 50vw;
+    }
+    .linksLogin{
+        letter-spacing: 1px;
+        
+        width: 100%;
+        margin-top: 5px;
+
+        font-size: 80%;
+    }
+
+    .imagenLogin{
+        display: none !important;
+    }
+    /*REGISTRARSE*/
+    .imagenRegistrarse{
+        display: none !important;
+    }
+
+
+}
+
+
+
+@media (min-width: 768px){
+    /*HEADER*/
+    #btn-menu{
+        display: none !important;
+
+    }
+    header label{
+        display: none !important;
+    } 
+
+    /*CONTACTO*/
+    .grid{
+        width: auto;
+        height: auto;
+        
+    }
+    
+    .datosContacto{
+        margin-left: 20px;
+        margin-top: 50px;
+
+        width: auto;
+        height: 70%;
+    }
+
+    .formularioContacto{
+        margin-left: 30px;
+        margin-top: 0px;
+
+        width: auto;
+        height: 119vh;
+
+        overflow: none !important;
+    }
+
+    .botonEnviar{
+        margin-top: 0px;
+    }
+     
+    /*FOOTER*/
+    .iconosRedes h3{
+        margin-top: 30px;
+    }
+
+       
+}
+
+@media (max-width: 768px) and (min-width:500px){
+ 
+    /*INGRESAR*/
+    .container{
+        width: auto;
+        height: auto;
+    }
+
+    .container h2{
+        font-size: 280%;
+    }
+
+    .imagenLogin{
+        width: 40vw;
+       
+    }
+    /*REGISTRARSE*/
+    .imagenRegistrarse{
+        width: 40vw;
+    }
+
+
+
+}
